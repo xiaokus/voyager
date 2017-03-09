@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Database\Types\Mysql;
+namespace xiaokus\Voyager\Database\Types\Mysql;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
-use TCG\Voyager\Database\Types\Type;
+use xiaokus\Voyager\Database\Types\Type;
 
 class MediumTextType extends Type
 {

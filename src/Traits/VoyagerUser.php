@@ -1,10 +1,10 @@
 <?php
 
-namespace TCG\Voyager\Traits;
+namespace xiaokus\Voyager\Traits;
 
 use Symfony\Component\HttpKernel\Exception\UnauthorizedHttpException;
-use TCG\Voyager\Facades\Voyager;
-use TCG\Voyager\Models\Role;
+use xiaokus\Voyager\Facades\Voyager;
+use xiaokus\Voyager\Models\Role;
 
 /**
  * @property  \Illuminate\Database\Eloquent\Collection  roles

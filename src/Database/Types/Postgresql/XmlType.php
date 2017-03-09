@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Database\Types\Postgresql;
+namespace xiaokus\Voyager\Database\Types\Postgresql;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
-use TCG\Voyager\Database\Types\Type;
+use xiaokus\Voyager\Database\Types\Type;
 
 class XmlType extends Type
 {

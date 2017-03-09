@@ -1,8 +1,8 @@
 <?php
 
-namespace TCG\Voyager\FormFields;
+namespace xiaokus\Voyager\FormFields;
 
-use TCG\Voyager\Traits\Renderable;
+use xiaokus\Voyager\Traits\Renderable;
 
 abstract class AbstractHandler implements HandlerInterface
 {

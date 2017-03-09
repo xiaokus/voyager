@@ -1,12 +1,12 @@
 <?php
 
-namespace TCG\Voyager\Models;
+namespace xiaokus\Voyager\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\Schema;
-use TCG\Voyager\Database\Schema\SchemaManager;
-use TCG\Voyager\Facades\Voyager;
+use xiaokus\Voyager\Database\Schema\SchemaManager;
+use xiaokus\Voyager\Facades\Voyager;
 
 class DataType extends Model
 {

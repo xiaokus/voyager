@@ -1,6 +1,6 @@
 <?php
 
-namespace TCG\Voyager;
+namespace xiaokus\Voyager;
 
 use Arrilot\Widgets\Facade as Widget;
 use Arrilot\Widgets\ServiceProvider as WidgetServiceProvider;
@@ -11,11 +11,11 @@ use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 use Intervention\Image\ImageServiceProvider;
-use TCG\Voyager\Facades\Voyager as VoyagerFacade;
-use TCG\Voyager\FormFields\After\DescriptionHandler;
-use TCG\Voyager\Http\Middleware\VoyagerAdminMiddleware;
-use TCG\Voyager\Models\User;
-use TCG\Voyager\Translator\Collection as TranslatorCollection;
+use xiaokus\Voyager\Facades\Voyager as VoyagerFacade;
+use xiaokus\Voyager\FormFields\After\DescriptionHandler;
+use xiaokus\Voyager\Http\Middleware\VoyagerAdminMiddleware;
+use xiaokus\Voyager\Models\User;
+use xiaokus\Voyager\Translator\Collection as TranslatorCollection;
 
 class VoyagerServiceProvider extends ServiceProvider
 {
@@ -161,7 +161,7 @@ class VoyagerServiceProvider extends ServiceProvider
         $components = ['title', 'text', 'button'];
 
         foreach ($components as $component) {
-            $class = 'TCG\\Voyager\\Alert\\Components\\'.ucfirst(camel_case($component)).'Component';
+            $class = 'xiaokus\\Voyager\\Alert\\Components\\'.ucfirst(camel_case($component)).'Component';
 
             $this->app->bind("voyager.alert.components.{$component}", $class);
         }
@@ -185,7 +185,7 @@ class VoyagerServiceProvider extends ServiceProvider
      */
     protected function registerWidgets()
     {
-        $default_widgets = ['TCG\\Voyager\\Widgets\\UserDimmer', 'TCG\\Voyager\\Widgets\\PostDimmer', 'TCG\\Voyager\\Widgets\\PageDimmer'];
+        $default_widgets = ['xiaokus\\Voyager\\Widgets\\UserDimmer', 'xiaokus\\Voyager\\Widgets\\PostDimmer', 'xiaokus\\Voyager\\Widgets\\PageDimmer'];
         $widgets = config('voyager.dashboard.widgets', $default_widgets);
 
         foreach ($widgets as $widget) {
@@ -201,7 +201,7 @@ class VoyagerServiceProvider extends ServiceProvider
         $basePath = dirname(__DIR__);
         $publishable = [
             'voyager_assets' => [
-                "$basePath/publishable/assets" => public_path('vendor/tcg/voyager/assets'),
+                "$basePath/publishable/assets" => public_path('vendor/xiaokus/voyager/assets'),
             ],
             'migrations' => [
                 "$basePath/publishable/database/migrations/" => database_path('migrations'),
@@ -252,7 +252,7 @@ class VoyagerServiceProvider extends ServiceProvider
         foreach ($formFields as $formField) {
             $class = studly_case("{$formField}_handler");
 
-            VoyagerFacade::addFormField("TCG\\Voyager\\FormFields\\{$class}");
+            VoyagerFacade::addFormField("xiaokus\\Voyager\\FormFields\\{$class}");
         }
 
         VoyagerFacade::addAfterFormField(DescriptionHandler::class);

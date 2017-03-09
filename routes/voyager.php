@@ -1,6 +1,6 @@
 <?php
 
-use TCG\Voyager\Models\DataType;
+use xiaokus\Voyager\Models\DataType;
 
 /*
 |--------------------------------------------------------------------------

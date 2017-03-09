@@ -1,11 +1,11 @@
 <?php
 
-namespace TCG\Voyager\Commands;
+namespace xiaokus\Voyager\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Support\Facades\Hash;
 use Symfony\Component\Console\Input\InputOption;
-use TCG\Voyager\Facades\Voyager;
+use xiaokus\Voyager\Facades\Voyager;
 
 class AdminCommand extends Command
 {

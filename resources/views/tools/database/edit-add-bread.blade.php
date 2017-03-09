@@ -46,7 +46,7 @@
                             @foreach($fieldOptions as $data)
 
                                 @if(isset($dataType->id))
-                                    <?php $dataRow = TCG\Voyager\Models\DataRow::where('data_type_id', '=',
+                                    <?php $dataRow = xiaokus\Voyager\Models\DataRow::where('data_type_id', '=',
                                             $dataType->id)->where('field', '=', $data['field'])->first(); ?>
                                 @endif
                                 <tr>

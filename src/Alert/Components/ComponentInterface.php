@@ -1,6 +1,6 @@
 <?php
 
-namespace TCG\Voyager\Alert\Components;
+namespace xiaokus\Voyager\Alert\Components;
 
 interface ComponentInterface
 {

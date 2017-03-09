@@ -1,5 +1,5 @@
 {
-    "name": "tcg/voyager",
+    "name": "xiaokus/voyager",
     "description": "A Laravel Admin Package for The Control Group to make your life easier and steer your project in the right direction",
     "keywords": ["laravel", "admin", "panel"],
     "license": "MIT",
@@ -34,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "TCG\\Voyager\\": "src/"
+            "xiaokus\\Voyager\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "TCG\\Voyager\\Tests\\": "tests/"
+            "xiaokus\\Voyager\\Tests\\": "tests/"
       }
     },
     "minimum-stability": "stable"

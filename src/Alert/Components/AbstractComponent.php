@@ -1,8 +1,8 @@
 <?php
 
-namespace TCG\Voyager\Alert\Components;
+namespace xiaokus\Voyager\Alert\Components;
 
-use TCG\Voyager\Alert;
+use xiaokus\Voyager\Alert;
 
 abstract class AbstractComponent implements ComponentInterface
 {

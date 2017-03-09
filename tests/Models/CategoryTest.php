@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Tests;
+namespace xiaokus\Voyager\Tests;
 
 use Illuminate\Support\Facades\Auth;
-use TCG\Voyager\Models\Category;
+use xiaokus\Voyager\Models\Category;
 
 class CategoryTest extends TestCase
 {

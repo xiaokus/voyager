@@ -1,11 +1,11 @@
 <?php
 
-namespace TCG\Voyager\Http\Controllers;
+namespace xiaokus\Voyager\Http\Controllers;
 
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
-use TCG\Voyager\Facades\Voyager;
+use xiaokus\Voyager\Facades\Voyager;
 
 class VoyagerMediaController extends Controller
 {

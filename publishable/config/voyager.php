@@ -27,7 +27,7 @@ return [
     */
 
     'controllers' => [
-        'namespace' => 'TCG\\Voyager\\Http\\Controllers',
+        'namespace' => 'xiaokus\\Voyager\\Http\\Controllers',
     ],
 
     /*
@@ -127,21 +127,21 @@ return [
         [
             'name'  => 'User',
             'icon'  => 'voyager-group',
-            'model' => TCG\Voyager\Models\User::class,
+            'model' => xiaokus\Voyager\Models\User::class,
             'url'   => 'admin/users',
             'image' => '/images/widget-backgrounds/02.png',
         ],
         [
             'name'  => 'Post',
             'icon'  => 'voyager-news',
-            'model' => TCG\Voyager\Models\Post::class,
+            'model' => xiaokus\Voyager\Models\Post::class,
             'url'   => 'admin/posts',
             'image' => '/images/widget-backgrounds/03.png',
         ],
         [
             'name'  => 'Page',
             'icon'  => 'voyager-file-text',
-            'model' => TCG\Voyager\Models\Page::class,
+            'model' => xiaokus\Voyager\Models\Page::class,
             'url'   => 'admin/pages',
             'image' => '/images/widget-backgrounds/04.png',
         ],
@@ -178,9 +178,9 @@ return [
             'responsive' => true, // Use responsive extension for jQuery dataTables that are not server-side paginated
         ],
         'widgets' => [
-            'TCG\\Voyager\\Widgets\\UserDimmer',
-            'TCG\\Voyager\\Widgets\\PostDimmer',
-            'TCG\\Voyager\\Widgets\\PageDimmer',
+            'xiaokus\\Voyager\\Widgets\\UserDimmer',
+            'xiaokus\\Voyager\\Widgets\\PostDimmer',
+            'xiaokus\\Voyager\\Widgets\\PageDimmer',
         ],
     ],
 

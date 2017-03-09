@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Widgets;
+namespace xiaokus\Voyager\Widgets;
 
 use Arrilot\Widgets\AbstractWidget;
-use TCG\Voyager\Facades\Voyager;
+use xiaokus\Voyager\Facades\Voyager;
 
 class UserDimmer extends AbstractWidget
 {

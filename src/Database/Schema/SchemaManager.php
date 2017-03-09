@@ -1,11 +1,11 @@
 <?php
 
-namespace TCG\Voyager\Database\Schema;
+namespace xiaokus\Voyager\Database\Schema;
 
 use Doctrine\DBAL\Schema\SchemaException;
 use Doctrine\DBAL\Schema\Table as DoctrineTable;
 use Illuminate\Support\Facades\DB;
-use TCG\Voyager\Database\Types\Type;
+use xiaokus\Voyager\Database\Types\Type;
 
 abstract class SchemaManager
 {

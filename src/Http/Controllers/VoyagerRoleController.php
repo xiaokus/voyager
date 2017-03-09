@@ -1,9 +1,9 @@
 <?php
 
-namespace TCG\Voyager\Http\Controllers;
+namespace xiaokus\Voyager\Http\Controllers;
 
 use Illuminate\Http\Request;
-use TCG\Voyager\Facades\Voyager;
+use xiaokus\Voyager\Facades\Voyager;
 
 class VoyagerRoleController extends VoyagerBreadController
 {

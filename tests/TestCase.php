@@ -1,14 +1,14 @@
 <?php
 
-namespace TCG\Voyager\Tests;
+namespace xiaokus\Voyager\Tests;
 
 use Exception;
 use Illuminate\Contracts\Debug\ExceptionHandler;
 use Illuminate\Database\Migrations\Migrator;
 use Illuminate\Foundation\Exceptions\Handler;
 use Orchestra\Testbench\BrowserKit\TestCase as OrchestraTestCase;
-use TCG\Voyager\Models\User;
-use TCG\Voyager\VoyagerServiceProvider;
+use xiaokus\Voyager\Models\User;
+use xiaokus\Voyager\VoyagerServiceProvider;
 
 class TestCase extends OrchestraTestCase
 {
