@@ -21,14 +21,14 @@ class PageDimmer extends AbstractWidget
     public function run()
     {
         $count = Voyager::model('Page')->count();
-        $string = $count == 1 ? 'page' : 'pages';
+        $string = $count == 1 ? '模块' : '模块';
 
         return view('voyager::dimmer', array_merge($this->config, [
             'icon'   => 'voyager-group',
             'title'  => "{$count} {$string}",
-            'text'   => "You have {$count} {$string} in your database. Click on button below to view all pages.",
+            'text'   => "系统有 {$count}  个功能. 点击进入系统模块.",
             'button' => [
-                'text' => 'View all pages',
+                'text' => '系统模块',
                 'link' => route('voyager.pages.index'),
             ],
             'image' => url(config('voyager.assets_path').'/images/widget-backgrounds/03.png'),
