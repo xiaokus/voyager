@@ -50,16 +50,16 @@
                             @if($table->dataTypeId)
                                 <a href="{{ route('voyager.database.edit_bread', $table->name) }}"
                                    class="btn-sm btn-default edit">
-                                   Edit BREAD
+                                   编辑 BREAD
                                 </a>
                                 <div data-id="{{ $table->dataTypeId }}" data-name="{{ $table->name }}"
                                      class="btn-sm btn-danger delete" style="display:inline">
-                                     Delete BREAD
+                                     删除 BREAD
                                 </div>
                             @else
                                 <a href="{{ route('voyager.database.create_bread', ['name' => $table->name]) }}"
                                    class="btn-sm btn-default">
-                                    <i class="voyager-plus"></i> Add BREAD to this table
+                                    <i class="voyager-plus"></i> 添加 BREAD 去表
                                 </a>
                             @endif
                             </div>
@@ -68,16 +68,16 @@
                         <td class="actions">
                             <a class="btn-danger btn-sm pull-right delete_table @if($table->dataTypeId) remove-bread-warning @endif"
                                data-table="{{ $table->name }}" style="display:inline; cursor:pointer;">
-                               <i class="voyager-trash"></i> Delete
+                               <i class="voyager-trash"></i> 删除
                             </a>
                             <a href="{{ route('voyager.database.edit', $table->name) }}"
                                class="btn-sm btn-primary pull-right" style="display:inline; margin-right:10px;">
-                               <i class="voyager-edit"></i> Edit
+                               <i class="voyager-edit"></i> 编辑
                             </a>
                             <a href="{{ route('voyager.database.show', $table->name) }}"
                                data-name="{{ $table->name }}"
                                class="btn-sm btn-warning pull-right desctable" style="display:inline; margin-right:10px;">
-                               <i class="voyager-eye"></i> View
+                               <i class="voyager-eye"></i> 查看
                             </a>
                         </td>
                     </tr>
