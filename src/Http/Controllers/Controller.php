@@ -1,6 +1,6 @@
 <?php
 
-namespace xiaokus\Voyager\Http\Controllers;
+namespace Xiaokus\Voyager\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;
@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Intervention\Image\Constraint;
 use Intervention\Image\Facades\Image;
-use xiaokus\Voyager\Traits\AlertsMessages;
+use Xiaokus\Voyager\Traits\AlertsMessages;
 
 abstract class Controller extends BaseController
 {

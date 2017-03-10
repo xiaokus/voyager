@@ -1,13 +1,13 @@
 <?php
 
-namespace xiaokus\Voyager\Tests;
+namespace Xiaokus\Voyager\Tests;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\DB;
-use xiaokus\Voyager\Facades\Voyager;
-use xiaokus\Voyager\Traits\Translatable;
-use xiaokus\Voyager\Translator;
-use xiaokus\Voyager\Translator\Collection;
+use Xiaokus\Voyager\Facades\Voyager;
+use Xiaokus\Voyager\Traits\Translatable;
+use Xiaokus\Voyager\Translator;
+use Xiaokus\Voyager\Translator\Collection;
 
 class MultilingualTest extends TestCase
 {

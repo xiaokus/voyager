@@ -1,9 +1,9 @@
 <?php
 
-namespace xiaokus\Voyager\Models;
+namespace Xiaokus\Voyager\Models;
 
 use Illuminate\Database\Eloquent\Model;
-use xiaokus\Voyager\Facades\Voyager;
+use Xiaokus\Voyager\Facades\Voyager;
 
 class Role extends Model
 {

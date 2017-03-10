@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use xiaokus\Voyager\Models\DataRow;
-use xiaokus\Voyager\Models\DataType;
+use Xiaokus\Voyager\Models\DataRow;
+use Xiaokus\Voyager\Models\DataType;
 
 class DataRowsTableSeeder extends Seeder
 {

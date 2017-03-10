@@ -1,6 +1,6 @@
 <?php
 
-namespace xiaokus\Voyager\Models;
+namespace Xiaokus\Voyager\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

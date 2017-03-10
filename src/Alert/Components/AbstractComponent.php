@@ -1,8 +1,8 @@
 <?php
 
-namespace xiaokus\Voyager\Alert\Components;
+namespace Xiaokus\Voyager\Alert\Components;
 
-use xiaokus\Voyager\Alert;
+use Xiaokus\Voyager\Alert;
 
 abstract class AbstractComponent implements ComponentInterface
 {

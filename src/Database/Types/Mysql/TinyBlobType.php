@@ -1,9 +1,9 @@
 <?php
 
-namespace xiaokus\Voyager\Database\Types\Mysql;
+namespace Xiaokus\Voyager\Database\Types\Mysql;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
-use xiaokus\Voyager\Database\Types\Type;
+use Xiaokus\Voyager\Database\Types\Type;
 
 class TinyBlobType extends Type
 {

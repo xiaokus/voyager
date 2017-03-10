@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use xiaokus\Voyager\Models\Role;
-use xiaokus\Voyager\Models\User;
+use Xiaokus\Voyager\Models\Role;
+use Xiaokus\Voyager\Models\User;
 
 class UsersTableSeeder extends Seeder
 {

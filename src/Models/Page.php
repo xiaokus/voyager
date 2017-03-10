@@ -1,10 +1,10 @@
 <?php
 
-namespace xiaokus\Voyager\Models;
+namespace Xiaokus\Voyager\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Auth;
-use xiaokus\Voyager\Traits\Translatable;
+use Xiaokus\Voyager\Traits\Translatable;
 
 class Page extends Model
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace xiaokus\Voyager\Commands;
+namespace Xiaokus\Voyager\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
@@ -57,7 +57,7 @@ class ControllersCommand extends Command
     {
         $stub = $this->getStub();
         $files = $this->filesystem->files(base_path('vendor/xiaokus/voyager/src/Http/Controllers'));
-        $namespace = config('voyager.controllers.namespace', 'xiaokus\\Voyager\\Http\\Controllers');
+        $namespace = config('voyager.controllers.namespace', 'Xiaokus\\Voyager\\Http\\Controllers');
 
         $appNamespace = app()->getNamespace();
 
@@ -111,7 +111,7 @@ class ControllersCommand extends Command
      */
     protected function generateContent($stub, $class)
     {
-        $namespace = config('voyager.controllers.namespace', 'xiaokus\\Voyager\\Http\\Controllers');
+        $namespace = config('voyager.controllers.namespace', 'Xiaokus\\Voyager\\Http\\Controllers');
 
         $content = str_replace(
             'DummyNamespace',
@@ -121,7 +121,7 @@ class ControllersCommand extends Command
 
         $content = str_replace(
             'FullBaseDummyClass',
-            'xiaokus\\Voyager\\Http\\Controllers\\'.$class,
+            'Xiaokus\\Voyager\\Http\\Controllers\\'.$class,
             $content
         );
 

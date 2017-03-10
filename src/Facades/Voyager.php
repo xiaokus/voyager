@@ -1,6 +1,6 @@
 <?php
 
-namespace xiaokus\Voyager\Facades;
+namespace Xiaokus\Voyager\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

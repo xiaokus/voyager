@@ -1,6 +1,6 @@
 <?php
 
-namespace xiaokus\Voyager\Database\Platforms;
+namespace Xiaokus\Voyager\Database\Platforms;
 
 use Illuminate\Support\Collection;
 

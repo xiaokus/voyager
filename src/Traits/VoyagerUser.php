@@ -1,10 +1,10 @@
 <?php
 
-namespace xiaokus\Voyager\Traits;
+namespace Xiaokus\Voyager\Traits;
 
 use Symfony\Component\HttpKernel\Exception\UnauthorizedHttpException;
-use xiaokus\Voyager\Facades\Voyager;
-use xiaokus\Voyager\Models\Role;
+use Xiaokus\Voyager\Facades\Voyager;
+use Xiaokus\Voyager\Models\Role;
 
 /**
  * @property  \Illuminate\Database\Eloquent\Collection  roles

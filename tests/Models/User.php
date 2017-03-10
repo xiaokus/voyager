@@ -1,6 +1,6 @@
 <?php
 
-namespace xiaokus\Voyager\Tests\Models;
+namespace Xiaokus\Voyager\Tests\Models;
 
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;

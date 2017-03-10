@@ -1,6 +1,6 @@
 <?php
 
-namespace xiaokus\Voyager\Database\Schema;
+namespace Xiaokus\Voyager\Database\Schema;
 
 use Doctrine\DBAL\Schema\Comparator;
 use Doctrine\DBAL\Schema\Table as DoctrineTable;

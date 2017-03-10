@@ -1,13 +1,13 @@
 <?php
 
-namespace xiaokus\Voyager\Database;
+namespace Xiaokus\Voyager\Database;
 
 use Doctrine\DBAL\Schema\Column;
 use Doctrine\DBAL\Schema\SchemaException;
 use Doctrine\DBAL\Schema\TableDiff;
-use xiaokus\Voyager\Database\Schema\SchemaManager;
-use xiaokus\Voyager\Database\Schema\Table;
-use xiaokus\Voyager\Database\Types\Type;
+use Xiaokus\Voyager\Database\Schema\SchemaManager;
+use Xiaokus\Voyager\Database\Schema\Table;
+use Xiaokus\Voyager\Database\Types\Type;
 
 class DatabaseUpdater
 {

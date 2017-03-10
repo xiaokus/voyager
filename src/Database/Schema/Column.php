@@ -1,10 +1,10 @@
 <?php
 
-namespace xiaokus\Voyager\Database\Schema;
+namespace Xiaokus\Voyager\Database\Schema;
 
 use Doctrine\DBAL\Schema\Column as DoctrineColumn;
 use Doctrine\DBAL\Types\Type as DoctrineType;
-use xiaokus\Voyager\Database\Types\Type;
+use Xiaokus\Voyager\Database\Types\Type;
 
 abstract class Column
 {

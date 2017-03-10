@@ -1,6 +1,6 @@
 <?php
 
-namespace xiaokus\Voyager\Traits;
+namespace Xiaokus\Voyager\Traits;
 
 trait AlertsMessages
 {

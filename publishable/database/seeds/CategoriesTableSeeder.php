@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use xiaokus\Voyager\Models\Category;
+use Xiaokus\Voyager\Models\Category;
 
 class CategoriesTableSeeder extends Seeder
 {

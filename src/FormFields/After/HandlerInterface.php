@@ -1,6 +1,6 @@
 <?php
 
-namespace xiaokus\Voyager\FormFields\After;
+namespace Xiaokus\Voyager\FormFields\After;
 
 interface HandlerInterface
 {

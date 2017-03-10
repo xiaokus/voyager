@@ -1,8 +1,8 @@
 <?php
 
-namespace xiaokus\Voyager;
+namespace Xiaokus\Voyager;
 
-use xiaokus\Voyager\Alert\Components\ComponentInterface;
+use Xiaokus\Voyager\Alert\Components\ComponentInterface;
 
 class Alert
 {

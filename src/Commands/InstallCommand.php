@@ -1,14 +1,14 @@
 <?php
 
-namespace xiaokus\Voyager\Commands;
+namespace Xiaokus\Voyager\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
 use Intervention\Image\ImageServiceProviderLaravel5;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Process\Process;
-use xiaokus\Voyager\Traits\Seedable;
-use xiaokus\Voyager\VoyagerServiceProvider;
+use Xiaokus\Voyager\Traits\Seedable;
+use Xiaokus\Voyager\VoyagerServiceProvider;
 
 class InstallCommand extends Command
 {

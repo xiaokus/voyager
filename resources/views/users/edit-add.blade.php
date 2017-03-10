@@ -82,7 +82,7 @@
                             <div class="form-group">
                                 <label for="role">User Role</label>
                                 <select name="role_id" id="role" class="form-control">
-                                    <?php $roles = xiaokus\Voyager\Models\Role::all(); ?>
+                                    <?php $roles = Xiaokus\Voyager\Models\Role::all(); ?>
                                     @foreach($roles as $role)
                                         <option value="{{$role->id}}" @if(isset($dataTypeContent) && $dataTypeContent->role_id == $role->id) selected @endif>{{$role->display_name}}</option>
                                     @endforeach

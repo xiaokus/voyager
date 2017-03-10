@@ -1,9 +1,9 @@
 <?php
 
-namespace xiaokus\Voyager\Tests;
+namespace Xiaokus\Voyager\Tests;
 
 use Illuminate\Foundation\Testing\DatabaseTransactions;
-use xiaokus\Voyager\Models\Role;
+use Xiaokus\Voyager\Models\Role;
 
 class RolesTest extends TestCase
 {

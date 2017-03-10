@@ -1,10 +1,10 @@
 <?php
 
-namespace xiaokus\Voyager\Models;
+namespace Xiaokus\Voyager\Models;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Support\Facades\Auth;
-use xiaokus\Voyager\Facades\Voyager;
+use Xiaokus\Voyager\Facades\Voyager;
 
 /**
  * @todo: Refactor this class by using something like MenuBuilder Helper.

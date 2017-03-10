@@ -1,6 +1,6 @@
 <?php
 
-namespace xiaokus\Voyager\Database\Types\Common;
+namespace Xiaokus\Voyager\Database\Types\Common;
 
 use Doctrine\DBAL\Types\StringType as DoctrineStringType;
 

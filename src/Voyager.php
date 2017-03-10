@@ -1,26 +1,26 @@
 <?php
 
-namespace xiaokus\Voyager;
+namespace Xiaokus\Voyager;
 
 use Illuminate\Database\Eloquent\Collection;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Facades\Storage;
 use Symfony\Component\HttpKernel\Exception\UnauthorizedHttpException;
-use xiaokus\Voyager\FormFields\After\HandlerInterface as AfterHandlerInterface;
-use xiaokus\Voyager\FormFields\HandlerInterface;
-use xiaokus\Voyager\Models\Category;
-use xiaokus\Voyager\Models\DataRow;
-use xiaokus\Voyager\Models\DataType;
-use xiaokus\Voyager\Models\Menu;
-use xiaokus\Voyager\Models\MenuItem;
-use xiaokus\Voyager\Models\Page;
-use xiaokus\Voyager\Models\Permission;
-use xiaokus\Voyager\Models\Post;
-use xiaokus\Voyager\Models\Role;
-use xiaokus\Voyager\Models\Setting;
-use xiaokus\Voyager\Models\User;
-use xiaokus\Voyager\Traits\Translatable;
+use Xiaokus\Voyager\FormFields\After\HandlerInterface as AfterHandlerInterface;
+use Xiaokus\Voyager\FormFields\HandlerInterface;
+use Xiaokus\Voyager\Models\Category;
+use Xiaokus\Voyager\Models\DataRow;
+use Xiaokus\Voyager\Models\DataType;
+use Xiaokus\Voyager\Models\Menu;
+use Xiaokus\Voyager\Models\MenuItem;
+use Xiaokus\Voyager\Models\Page;
+use Xiaokus\Voyager\Models\Permission;
+use Xiaokus\Voyager\Models\Post;
+use Xiaokus\Voyager\Models\Role;
+use Xiaokus\Voyager\Models\Setting;
+use Xiaokus\Voyager\Models\User;
+use Xiaokus\Voyager\Traits\Translatable;
 
 class Voyager
 {
@@ -231,7 +231,7 @@ class Voyager
 
             // Loop through all the packages and get the version of voyager
             foreach ($file->packages as $package) {
-                if ($package->name == 'xiaokus/voyager') {
+                if ($package->name == 'Xiaokus/voyager') {
                     $this->version = $package->version;
                     break;
                 }

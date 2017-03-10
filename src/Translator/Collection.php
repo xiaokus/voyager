@@ -1,6 +1,6 @@
 <?php
 
-namespace xiaokus\Voyager\Translator;
+namespace Xiaokus\Voyager\Translator;
 
 use Illuminate\Support\Collection as IlluminateCollection;
 

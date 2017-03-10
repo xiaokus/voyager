@@ -1,6 +1,6 @@
 <?php
 
-namespace xiaokus\Voyager\Tests;
+namespace Xiaokus\Voyager\Tests;
 
 use Illuminate\Foundation\Testing\DatabaseTransactions;
 use Illuminate\Support\Facades\Auth;

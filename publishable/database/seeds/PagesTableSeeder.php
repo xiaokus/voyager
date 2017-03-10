@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use xiaokus\Voyager\Models\Page;
+use Xiaokus\Voyager\Models\Page;
 
 class PagesTableSeeder extends Seeder
 {

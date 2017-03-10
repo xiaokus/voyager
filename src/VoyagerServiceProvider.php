@@ -1,6 +1,6 @@
 <?php
 
-namespace xiaokus\Voyager;
+namespace Xiaokus\Voyager;
 
 use Arrilot\Widgets\Facade as Widget;
 use Arrilot\Widgets\ServiceProvider as WidgetServiceProvider;
@@ -11,11 +11,11 @@ use Illuminate\Routing\Router;
 use Illuminate\Support\Facades\View;
 use Illuminate\Support\ServiceProvider;
 use Intervention\Image\ImageServiceProvider;
-use xiaokus\Voyager\Facades\Voyager as VoyagerFacade;
-use xiaokus\Voyager\FormFields\After\DescriptionHandler;
-use xiaokus\Voyager\Http\Middleware\VoyagerAdminMiddleware;
-use xiaokus\Voyager\Models\User;
-use xiaokus\Voyager\Translator\Collection as TranslatorCollection;
+use Xiaokus\Voyager\Facades\Voyager as VoyagerFacade;
+use Xiaokus\Voyager\FormFields\After\DescriptionHandler;
+use Xiaokus\Voyager\Http\Middleware\VoyagerAdminMiddleware;
+use Xiaokus\Voyager\Models\User;
+use Xiaokus\Voyager\Translator\Collection as TranslatorCollection;
 
 class VoyagerServiceProvider extends ServiceProvider
 {
@@ -161,7 +161,7 @@ class VoyagerServiceProvider extends ServiceProvider
         $components = ['title', 'text', 'button'];
 
         foreach ($components as $component) {
-            $class = 'xiaokus\\Voyager\\Alert\\Components\\'.ucfirst(camel_case($component)).'Component';
+            $class = 'Xiaokus\\Voyager\\Alert\\Components\\'.ucfirst(camel_case($component)).'Component';
 
             $this->app->bind("voyager.alert.components.{$component}", $class);
         }
@@ -185,7 +185,7 @@ class VoyagerServiceProvider extends ServiceProvider
      */
     protected function registerWidgets()
     {
-        $default_widgets = ['xiaokus\\Voyager\\Widgets\\UserDimmer', 'xiaokus\\Voyager\\Widgets\\PostDimmer', 'xiaokus\\Voyager\\Widgets\\PageDimmer'];
+        $default_widgets = ['Xiaokus\\Voyager\\Widgets\\UserDimmer', 'Xiaokus\\Voyager\\Widgets\\PostDimmer', 'Xiaokus\\Voyager\\Widgets\\PageDimmer'];
         $widgets = config('voyager.dashboard.widgets', $default_widgets);
 
         foreach ($widgets as $widget) {
@@ -252,7 +252,7 @@ class VoyagerServiceProvider extends ServiceProvider
         foreach ($formFields as $formField) {
             $class = studly_case("{$formField}_handler");
 
-            VoyagerFacade::addFormField("xiaokus\\Voyager\\FormFields\\{$class}");
+            VoyagerFacade::addFormField("Xiaokus\\Voyager\\FormFields\\{$class}");
         }
 
         VoyagerFacade::addAfterFormField(DescriptionHandler::class);

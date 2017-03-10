@@ -1,9 +1,9 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use xiaokus\Voyager\Models\MenuItem;
-use xiaokus\Voyager\Models\Page;
-use xiaokus\Voyager\Models\Translation;
+use Xiaokus\Voyager\Models\MenuItem;
+use Xiaokus\Voyager\Models\Page;
+use Xiaokus\Voyager\Models\Translation;
 
 class TranslationsTableSeeder extends Seeder
 {

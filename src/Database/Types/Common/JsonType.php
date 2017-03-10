@@ -1,9 +1,9 @@
 <?php
 
-namespace xiaokus\Voyager\Database\Types\Common;
+namespace Xiaokus\Voyager\Database\Types\Common;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
-use xiaokus\Voyager\Database\Types\Type;
+use Xiaokus\Voyager\Database\Types\Type;
 
 class JsonType extends Type
 {

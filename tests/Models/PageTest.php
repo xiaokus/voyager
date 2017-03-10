@@ -1,9 +1,9 @@
 <?php
 
-namespace xiaokus\Voyager\Tests;
+namespace Xiaokus\Voyager\Tests;
 
 use Illuminate\Support\Facades\Auth;
-use xiaokus\Voyager\Models\Page;
+use Xiaokus\Voyager\Models\Page;
 
 class PageTest extends TestCase
 {

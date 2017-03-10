@@ -34,12 +34,12 @@
     },
     "autoload": {
         "psr-4": {
-            "xiaokus\\Voyager\\": "src/"
+            "Xiaokus\\Voyager\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "xiaokus\\Voyager\\Tests\\": "tests/"
+            "Xiaokus\\Voyager\\Tests\\": "tests/"
       }
     },
     "minimum-stability": "stable"

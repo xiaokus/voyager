@@ -1,10 +1,10 @@
 <?php
 
-namespace xiaokus\Voyager\Http\Controllers;
+namespace Xiaokus\Voyager\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Storage;
-use xiaokus\Voyager\Facades\Voyager;
+use Xiaokus\Voyager\Facades\Voyager;
 
 class VoyagerSettingsController extends Controller
 {

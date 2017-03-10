@@ -1,6 +1,6 @@
 <?php
 
-use xiaokus\Voyager\Models\DataType;
+use Xiaokus\Voyager\Models\DataType;
 
 /*
 |--------------------------------------------------------------------------

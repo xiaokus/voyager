@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use xiaokus\Voyager\Models\Permission;
-use xiaokus\Voyager\Models\Role;
+use Xiaokus\Voyager\Models\Permission;
+use Xiaokus\Voyager\Models\Role;
 
 class PermissionRoleTableSeeder extends Seeder
 {

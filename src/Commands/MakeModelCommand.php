@@ -1,6 +1,6 @@
 <?php
 
-namespace xiaokus\Voyager\Commands;
+namespace Xiaokus\Voyager\Commands;
 
 use Illuminate\Foundation\Console\ModelMakeCommand;
 use Symfony\Component\Console\Input\InputOption;

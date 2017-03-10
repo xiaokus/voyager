@@ -1,6 +1,6 @@
 <?php
 
-namespace xiaokus\Voyager\Http\Controllers;
+namespace Xiaokus\Voyager\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Storage;
 use Illuminate\Support\Str;
 use Intervention\Image\Constraint;
 use Intervention\Image\Facades\Image;
-use xiaokus\Voyager\Facades\Voyager;
+use Xiaokus\Voyager\Facades\Voyager;
 
 class VoyagerController extends Controller
 {

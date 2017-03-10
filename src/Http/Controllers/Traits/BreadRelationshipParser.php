@@ -1,10 +1,10 @@
 <?php
 
-namespace xiaokus\Voyager\Http\Controllers\Traits;
+namespace Xiaokus\Voyager\Http\Controllers\Traits;
 
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Pagination\LengthAwarePaginator;
-use xiaokus\Voyager\Models\DataType;
+use Xiaokus\Voyager\Models\DataType;
 
 trait BreadRelationshipParser
 {

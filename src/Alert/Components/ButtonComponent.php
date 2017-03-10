@@ -1,6 +1,6 @@
 <?php
 
-namespace xiaokus\Voyager\Alert\Components;
+namespace Xiaokus\Voyager\Alert\Components;
 
 class ButtonComponent extends AbstractComponent
 {

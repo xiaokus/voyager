@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use xiaokus\Voyager\Models\DataType;
+use Xiaokus\Voyager\Models\DataType;
 
 class DataTypesTableSeeder extends Seeder
 {
@@ -17,7 +17,7 @@ class DataTypesTableSeeder extends Seeder
                 'display_name_singular' => 'Post',
                 'display_name_plural'   => 'Posts',
                 'icon'                  => 'voyager-news',
-                'model_name'            => 'xiaokus\\Voyager\\Models\\Post',
+                'model_name'            => 'Xiaokus\\Voyager\\Models\\Post',
                 'controller'            => '',
                 'generate_permissions'  => 1,
                 'description'           => '',
@@ -31,7 +31,7 @@ class DataTypesTableSeeder extends Seeder
                 'display_name_singular' => 'Page',
                 'display_name_plural'   => 'Pages',
                 'icon'                  => 'voyager-file-text',
-                'model_name'            => 'xiaokus\\Voyager\\Models\\Page',
+                'model_name'            => 'Xiaokus\\Voyager\\Models\\Page',
                 'controller'            => '',
                 'generate_permissions'  => 1,
                 'description'           => '',
@@ -45,7 +45,7 @@ class DataTypesTableSeeder extends Seeder
                 'display_name_singular' => 'User',
                 'display_name_plural'   => 'Users',
                 'icon'                  => 'voyager-person',
-                'model_name'            => 'xiaokus\\Voyager\\Models\\User',
+                'model_name'            => 'Xiaokus\\Voyager\\Models\\User',
                 'controller'            => '',
                 'generate_permissions'  => 1,
                 'description'           => '',
@@ -59,7 +59,7 @@ class DataTypesTableSeeder extends Seeder
                 'display_name_singular' => 'Category',
                 'display_name_plural'   => 'Categories',
                 'icon'                  => 'voyager-categories',
-                'model_name'            => 'xiaokus\\Voyager\\Models\\Category',
+                'model_name'            => 'Xiaokus\\Voyager\\Models\\Category',
                 'controller'            => '',
                 'generate_permissions'  => 1,
                 'description'           => '',
@@ -73,7 +73,7 @@ class DataTypesTableSeeder extends Seeder
                 'display_name_singular' => 'Menu',
                 'display_name_plural'   => 'Menus',
                 'icon'                  => 'voyager-list',
-                'model_name'            => 'xiaokus\\Voyager\\Models\\Menu',
+                'model_name'            => 'Xiaokus\\Voyager\\Models\\Menu',
                 'controller'            => '',
                 'generate_permissions'  => 1,
                 'description'           => '',
@@ -87,7 +87,7 @@ class DataTypesTableSeeder extends Seeder
                 'display_name_singular' => 'Role',
                 'display_name_plural'   => 'Roles',
                 'icon'                  => 'voyager-lock',
-                'model_name'            => 'xiaokus\\Voyager\\Models\\Role',
+                'model_name'            => 'Xiaokus\\Voyager\\Models\\Role',
                 'controller'            => '',
                 'generate_permissions'  => 1,
                 'description'           => '',

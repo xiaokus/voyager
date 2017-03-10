@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use xiaokus\Voyager\Models\Setting;
+use Xiaokus\Voyager\Models\Setting;
 
 class SettingsTableSeeder extends Seeder
 {

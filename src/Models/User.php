@@ -1,10 +1,10 @@
 <?php
 
-namespace xiaokus\Voyager\Models;
+namespace Xiaokus\Voyager\Models;
 
 use Carbon\Carbon;
 use Illuminate\Foundation\Auth\User as AuthUser;
-use xiaokus\Voyager\Traits\VoyagerUser;
+use Xiaokus\Voyager\Traits\VoyagerUser;
 
 class User extends AuthUser
 {

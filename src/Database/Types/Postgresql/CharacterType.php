@@ -1,8 +1,8 @@
 <?php
 
-namespace xiaokus\Voyager\Database\Types\Postgresql;
+namespace Xiaokus\Voyager\Database\Types\Postgresql;
 
-use xiaokus\Voyager\Database\Types\Common\CharType;
+use Xiaokus\Voyager\Database\Types\Common\CharType;
 
 class CharacterType extends CharType
 {

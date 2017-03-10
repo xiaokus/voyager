@@ -1,21 +1,21 @@
 <?php
 
-namespace xiaokus\Voyager\Http\Controllers;
+namespace Xiaokus\Voyager\Http\Controllers;
 
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Artisan;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Str;
-use xiaokus\Voyager\Database\DatabaseUpdater;
-use xiaokus\Voyager\Database\Schema\Column;
-use xiaokus\Voyager\Database\Schema\Identifier;
-use xiaokus\Voyager\Database\Schema\SchemaManager;
-use xiaokus\Voyager\Database\Schema\Table;
-use xiaokus\Voyager\Database\Types\Type;
-use xiaokus\Voyager\Facades\Voyager;
-use xiaokus\Voyager\Models\DataType;
-use xiaokus\Voyager\Models\Permission;
+use Xiaokus\Voyager\Database\DatabaseUpdater;
+use Xiaokus\Voyager\Database\Schema\Column;
+use Xiaokus\Voyager\Database\Schema\Identifier;
+use Xiaokus\Voyager\Database\Schema\SchemaManager;
+use Xiaokus\Voyager\Database\Schema\Table;
+use Xiaokus\Voyager\Database\Types\Type;
+use Xiaokus\Voyager\Facades\Voyager;
+use Xiaokus\Voyager\Models\DataType;
+use Xiaokus\Voyager\Models\Permission;
 
 class VoyagerDatabaseController extends Controller
 {

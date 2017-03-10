@@ -1,9 +1,9 @@
 <?php
 
-namespace xiaokus\Voyager\Database\Platforms;
+namespace Xiaokus\Voyager\Database\Platforms;
 
 use Illuminate\Support\Collection;
-use xiaokus\Voyager\Database\Types\Type;
+use Xiaokus\Voyager\Database\Types\Type;
 
 abstract class Mysql extends Platform
 {

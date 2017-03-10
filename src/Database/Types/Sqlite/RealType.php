@@ -1,9 +1,9 @@
 <?php
 
-namespace xiaokus\Voyager\Database\Types\Sqlite;
+namespace Xiaokus\Voyager\Database\Types\Sqlite;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
-use xiaokus\Voyager\Database\Types\Type;
+use Xiaokus\Voyager\Database\Types\Type;
 
 class RealType extends Type
 {

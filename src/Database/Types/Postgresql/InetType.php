@@ -1,9 +1,9 @@
 <?php
 
-namespace xiaokus\Voyager\Database\Types\Postgresql;
+namespace Xiaokus\Voyager\Database\Types\Postgresql;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform;
-use xiaokus\Voyager\Database\Types\Type;
+use Xiaokus\Voyager\Database\Types\Type;
 
 class InetType extends Type
 {

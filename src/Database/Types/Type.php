@@ -1,11 +1,11 @@
 <?php
 
-namespace xiaokus\Voyager\Database\Types;
+namespace Xiaokus\Voyager\Database\Types;
 
 use Doctrine\DBAL\Platforms\AbstractPlatform as DoctrineAbstractPlatform;
 use Doctrine\DBAL\Types\Type as DoctrineType;
-use xiaokus\Voyager\Database\Platforms\Platform;
-use xiaokus\Voyager\Database\Schema\SchemaManager;
+use Xiaokus\Voyager\Database\Platforms\Platform;
+use Xiaokus\Voyager\Database\Schema\SchemaManager;
 
 abstract class Type extends DoctrineType
 {

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use xiaokus\Voyager\Models\Permission;
+use Xiaokus\Voyager\Models\Permission;
 
 class PermissionsTableSeeder extends Seeder
 {

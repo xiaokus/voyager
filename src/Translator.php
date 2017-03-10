@@ -1,10 +1,10 @@
 <?php
 
-namespace xiaokus\Voyager;
+namespace Xiaokus\Voyager;
 
 use ArrayAccess;
 use Illuminate\Database\Eloquent\Model;
-use xiaokus\Voyager\Models\Translation;
+use Xiaokus\Voyager\Models\Translation;
 
 class Translator implements ArrayAccess
 {
@@ -302,7 +302,7 @@ class Translator implements ArrayAccess
     public function __call($method, array $arguments)
     {
         if (!$this->model->hasTranslatorMethod($method)) {
-            throw new \Exception('Call to undefined method xiaokus\Voyager\Translator::'.$method.'()');
+            throw new \Exception('Call to undefined method Xiaokus\Voyager\Translator::'.$method.'()');
         }
 
         return call_user_func_array([$this, 'runTranslatorMethod'], [$method, $arguments]);

@@ -1,11 +1,11 @@
 <?php
 
-namespace xiaokus\Voyager\Http\Controllers;
+namespace Xiaokus\Voyager\Http\Controllers;
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\DB;
-use xiaokus\Voyager\Facades\Voyager;
-use xiaokus\Voyager\Http\Controllers\Traits\BreadRelationshipParser;
+use Xiaokus\Voyager\Facades\Voyager;
+use Xiaokus\Voyager\Http\Controllers\Traits\BreadRelationshipParser;
 
 class VoyagerBreadController extends Controller
 {

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use xiaokus\Voyager\Traits\Seedable;
+use Xiaokus\Voyager\Traits\Seedable;
 
 class VoyagerDatabaseSeeder extends Seeder
 {

@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use xiaokus\Voyager\Models\Post;
+use Xiaokus\Voyager\Models\Post;
 
 class PostsTableSeeder extends Seeder
 {

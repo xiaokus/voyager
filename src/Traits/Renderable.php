@@ -1,6 +1,6 @@
 <?php
 
-namespace xiaokus\Voyager\Traits;
+namespace Xiaokus\Voyager\Traits;
 
 use Illuminate\View\View;
 

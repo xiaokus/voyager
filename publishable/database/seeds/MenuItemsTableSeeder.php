@@ -1,8 +1,8 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use xiaokus\Voyager\Models\Menu;
-use xiaokus\Voyager\Models\MenuItem;
+use Xiaokus\Voyager\Models\Menu;
+use Xiaokus\Voyager\Models\MenuItem;
 
 class MenuItemsTableSeeder extends Seeder
 {

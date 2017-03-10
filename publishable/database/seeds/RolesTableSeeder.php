@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use xiaokus\Voyager\Models\Role;
+use Xiaokus\Voyager\Models\Role;
 
 class RolesTableSeeder extends Seeder
 {

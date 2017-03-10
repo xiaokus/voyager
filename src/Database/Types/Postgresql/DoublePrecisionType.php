@@ -1,8 +1,8 @@
 <?php
 
-namespace xiaokus\Voyager\Database\Types\Postgresql;
+namespace Xiaokus\Voyager\Database\Types\Postgresql;
 
-use xiaokus\Voyager\Database\Types\Common\DoubleType;
+use Xiaokus\Voyager\Database\Types\Common\DoubleType;
 
 class DoublePrecisionType extends DoubleType
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace xiaokus\Voyager\Tests;
+namespace Xiaokus\Voyager\Tests;
 
 class LoginTest extends TestCase
 {

@@ -1,9 +1,9 @@
 <?php
 
-namespace xiaokus\Voyager\Widgets;
+namespace Xiaokus\Voyager\Widgets;
 
 use Arrilot\Widgets\AbstractWidget;
-use xiaokus\Voyager\Facades\Voyager;
+use Xiaokus\Voyager\Facades\Voyager;
 
 class PostDimmer extends AbstractWidget
 {

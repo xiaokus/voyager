@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
-use xiaokus\Voyager\Models\Menu;
+use Xiaokus\Voyager\Models\Menu;
 
 class MenusTableSeeder extends Seeder
 {

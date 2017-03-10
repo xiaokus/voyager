@@ -1,10 +1,10 @@
 <?php
 
-namespace xiaokus\Voyager\Http\Middleware;
+namespace Xiaokus\Voyager\Http\Middleware;
 
 use Closure;
 use Illuminate\Support\Facades\Auth;
-use xiaokus\Voyager\Facades\Voyager;
+use Xiaokus\Voyager\Facades\Voyager;
 
 class VoyagerAdminMiddleware
 {

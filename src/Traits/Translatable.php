@@ -1,11 +1,11 @@
 <?php
 
-namespace xiaokus\Voyager\Traits;
+namespace Xiaokus\Voyager\Traits;
 
 use Illuminate\Database\Eloquent\Builder;
 use Illuminate\Database\Eloquent\Relations\Relation;
-use xiaokus\Voyager\Models\Translation;
-use xiaokus\Voyager\Translator;
+use Xiaokus\Voyager\Models\Translation;
+use Xiaokus\Voyager\Translator;
 
 trait Translatable
 {

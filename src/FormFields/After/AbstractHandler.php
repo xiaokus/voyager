@@ -1,8 +1,8 @@
 <?php
 
-namespace xiaokus\Voyager\FormFields\After;
+namespace Xiaokus\Voyager\FormFields\After;
 
-use xiaokus\Voyager\Traits\Renderable;
+use Xiaokus\Voyager\Traits\Renderable;
 
 abstract class AbstractHandler implements HandlerInterface
 {
