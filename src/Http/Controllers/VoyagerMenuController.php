@@ -53,7 +53,7 @@ class VoyagerMenuController extends Controller
         }
 
         // Save menu translations if available
-        $this->saveMenuTranslations($menuItem, $data, 'add');
+        //$this->saveMenuTranslations($menuItem, $data, 'add');
 
         Voyager::model('MenuItem')->create($data);
 

@@ -94,7 +94,7 @@ abstract class Controller extends BaseController
                 $data->{$row->field} = $content;
             }
         }
-
+        $this->validate($request, $rules, $messages);
         $data->save();
 
         foreach ($translations as $field => $locales) {

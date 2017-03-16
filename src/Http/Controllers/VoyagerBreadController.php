@@ -167,7 +167,7 @@ class VoyagerBreadController extends Controller
         return redirect()
             ->route("voyager.{$dataType->slug}.edit", ['id' => $id])
             ->with([
-                'message'    => "Successfully Updated {$dataType->display_name_singular}",
+                'message'    => "成功更新{$dataType->display_name_singular}",
                 'alert-type' => 'success',
             ]);
     }
@@ -225,7 +225,7 @@ class VoyagerBreadController extends Controller
         return redirect()
             ->route("voyager.{$dataType->slug}.edit", ['id' => $data->id])
             ->with([
-                'message'    => "Successfully Added New {$dataType->display_name_singular}",
+                'message'    => "成功添加了{$dataType->display_name_singular}",
                 'alert-type' => 'success',
             ]);
     }
@@ -276,11 +276,11 @@ class VoyagerBreadController extends Controller
 
         $data = $data->destroy($id)
             ? [
-                'message'    => "Successfully Deleted {$dataType->display_name_singular}",
+                'message'    => "成功删除 {$dataType->display_name_singular}",
                 'alert-type' => 'success',
             ]
             : [
-                'message'    => "Sorry it appears there was a problem deleting this {$dataType->display_name_singular}",
+                'message'    => "失败删除 {$dataType->display_name_singular}",
                 'alert-type' => 'error',
             ];
 
